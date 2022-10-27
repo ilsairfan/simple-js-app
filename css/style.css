@@ -14,6 +14,23 @@ body{
 h1{
   font-size: 30px;
   font-weight: 700;
-  color: var(--primary-color);
+  color:  var(--primary-color);
   text-align: center;
+}
+
+.button-class{
+  background-color: #4CAF50; /*green*/
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  transition-duration: 0.8s;
+}
+
+.button-class:hover{
+  filter: brightness(130%); /*dynamically changes color on hover*/
+  color: black;
 }
